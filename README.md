@@ -1,7 +1,7 @@
-# Tower Defense Game
+# Space Shooter 2D
 
-A Tower Defense game for teaching programming in Unity3d to my students.
-It's made for a **Intermediate Level**. 
+A classic Space Shooter in 2D for teaching programming in Unity3d to my students.
+It's made for a **Beginner Level**. 
 
 ### Requirements
 * You should know how to do basic programming.
@@ -10,6 +10,12 @@ It's made for a **Intermediate Level**.
 ### Concepts 
 * Transform
 * Rigidbody
+* Basic Unity API
+* Components / Monobehaviour
+* Basic Input
+* Basic Physics
+* Basic Movement
+* Simple Gameplay
 * Instantiate
 * Damage enemies
 
