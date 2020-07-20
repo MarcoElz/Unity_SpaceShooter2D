@@ -72,7 +72,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 1
   m_Sprite: {fileID: 8353321399318934863, guid: e40da49cc2a41644baf0f74d7146df6e,
     type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -116,7 +116,7 @@ BoxCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: -0.0008416176, y: 0.008416086}
@@ -146,3 +146,5 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speed: 10
   damageAmount: 10
+  hitParticlePrefab: {fileID: 2048974305009496662, guid: 8cd14ea3abdac3247b4fc8e3c60d96da,
+    type: 3}
