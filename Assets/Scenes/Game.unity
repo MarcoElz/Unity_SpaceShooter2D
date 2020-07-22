@@ -5832,6 +5832,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1086089312}
   - component: {fileID: 1086089311}
+  - component: {fileID: 1086089313}
   m_Layer: 0
   m_Name: Spawner
   m_TagString: Untagged
@@ -5854,7 +5855,7 @@ MonoBehaviour:
   prefabs:
   - {fileID: 7205378027904696619, guid: 4539c406a28a2fe45a63ade8c99edd24, type: 3}
   - {fileID: 4471634245182503482, guid: 22e5324aa2ad9374e9d018f3f19f2538, type: 3}
-  timeBetweenSpawns: 1
+  timeBetweenSpawns: 0.8
 --- !u!4 &1086089312
 Transform:
   m_ObjectHideFlags: 0
@@ -5869,6 +5870,21 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1086089313
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1086089310}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2ee9e01eebc2a2945973a9d0ce114cfc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  prefabs:
+  - {fileID: 8203821118864905312, guid: 769a1229646e4ae4abd1169abb4c44f3, type: 3}
+  timeBetweenSpawns: 7
 --- !u!1 &1088978080
 GameObject:
   m_ObjectHideFlags: 0
@@ -15979,7 +15995,7 @@ PrefabInstance:
       objectReference: {fileID: 2044492375}
     - target: {fileID: 1496629475, guid: 016c92fa9bc21854e8fbdbde5c98a859, type: 3}
       propertyPath: timeBetweenShoots
-      value: 0.5
+      value: 0.25
       objectReference: {fileID: 0}
     - target: {fileID: 1496629475, guid: 016c92fa9bc21854e8fbdbde5c98a859, type: 3}
       propertyPath: hpText
@@ -16081,7 +16097,7 @@ PrefabInstance:
     - target: {fileID: 4453082917507383416, guid: 769a1229646e4ae4abd1169abb4c44f3,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0
+      value: 5.61
       objectReference: {fileID: 0}
     - target: {fileID: 4453082917507383416, guid: 769a1229646e4ae4abd1169abb4c44f3,
         type: 3}
@@ -16128,10 +16144,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 6848197765707482252, guid: 769a1229646e4ae4abd1169abb4c44f3,
+    - target: {fileID: 5593270519880670419, guid: 769a1229646e4ae4abd1169abb4c44f3,
         type: 3}
-      propertyPath: speed
-      value: 1
+      propertyPath: m_LocalPosition.y
+      value: -0.626
       objectReference: {fileID: 0}
     - target: {fileID: 8203821118864905312, guid: 769a1229646e4ae4abd1169abb4c44f3,
         type: 3}

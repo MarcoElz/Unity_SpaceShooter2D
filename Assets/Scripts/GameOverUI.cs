@@ -12,11 +12,12 @@ public class GameOverUI : MonoBehaviour
     private void OnEnable()
     {
         int currentScore = score.GetScore();
-        //Debug.Log("Current Score: " + currentScore);
+        Debug.Log("Current Score: " + currentScore);
         scoreLabel.text = "Score: " + currentScore;
 
         //Check highscore
         int highscore = PlayerPrefs.GetInt("highscore", 0);
+        Debug.Log("Highscore: " + highscore);
         highScoreLabel.text = "Highscore: " + highscore;
         if(currentScore > highscore)
             PlayerPrefs.SetInt("highscore", currentScore);
